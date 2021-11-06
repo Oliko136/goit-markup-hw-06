@@ -755,6 +755,7 @@ img {
 
 .form-footer-input:focus {
   border: 1px solid var(--accent-color);
+  color: var(--tertiary-text-color);
 }
 
 .form-footer-input::placeholder {
