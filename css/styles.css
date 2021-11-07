@@ -381,13 +381,16 @@ img {
   position: relative;
 
   margin-bottom: 30px;
-  padding-left: 37px;
 }
 
 .accept-policies-label {
+  padding-left: 37px;
+
   font-size: 14px;
   line-height: 1.7;
   color: var(--secondary-text-color);
+
+  cursor: pointer;
 }
 
 .accept-policies-input {
@@ -414,6 +417,8 @@ img {
 
   background-image: url(../images/icon-unchecked_c.svg);
   transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  pointer-events: none;
 }
 
 .accept-policies-input:checked + .accept-policies-checkbox {
